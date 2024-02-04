@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piyush-Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="HD-wallpaper-piyush-name-rowdy-design-name-thumbnail.jpg" class="logo" alt="">
+
+                <ul id="sidemanu">
+                    <li><a href="#header"> Home</a></li>
+                    <li><a href="#about"> About</a></li>
+                    <li><a href="#services"> Services</a></li>
+                    <li><a href="#portfolio"> Portfolio</a></li>
+                    <li><a href="#contact"> Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmanu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web/App Developor</p>
+                <h1>Hi, I'm <span>Piyush</span> <br> This Site Is For Development</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About me -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="IMG_20240127_120343.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi my name is piyush chouhan i am pursuing my Bachelor of degree from from Samrat ashok
+                        technological
+                        Institute vidisha (madhya pradesh) from electronics and communication engg. I am a web developor
+                        specialized with CSS and i have knowledge of HTML and Js. and i have deep knowledge java and DSA
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Building Websites</li>
+                            <li><span>App Development</span><br>Building Android / ios apps</li>
+                            <li><span>Marketing</span><br>Designing Web / App interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="Experience">
+                        <ul>
+                            <li><span>enternPe</span><br>Front End Web developer</li>
+                            <li><span>Wayspire</span><br>Student ambassedor</li>
+                            <li><span>Current</span><br>Marketing Exicutive</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="Education">
+                        <ul>
+                            <li><span>B-Tech</span><br>From SATI Vidisha</li>
+                            <li><span>Java</span><br>LetsUpgrade</li>
+                            <li><span>HTML , CSS , JS</span><br>Coading Suttol</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------------services--------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Serviecs</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque fugit enim quo amet dolor
+                        quaerat, aut aspernatur voluptate similique minus?</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque fugit enim quo amet dolor
+                        quaerat, aut aspernatur voluptate similique minus?</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Marketing Exicutive</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque fugit enim quo amet dolor
+                        quaerat, aut aspernatur voluptate similique minus?</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------portfolio--------------------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="amend-text-timing.webp">
+                    <div class="layer">
+                        <h3>Crop The Photo</h3>
+                        <p>Lorem ipsum elit. quisquam veniam, consequuntur quia molestias optio.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Step-2-Prerecording-tools-702x1024.png">
+                    <div class="layer">
+                        <h3>Add the Text</h3>
+                        <p>Lorem ipsum elit. quisquam veniam, consequuntur quia molestias optio.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images (3).jpeg">
+                    <div class="layer">
+                        <h3>Sorts in Mobile</h3>
+                        <p>Lorem ipsum elit. quisquam veniam, consequuntur quia molestias optio.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- -------------contact----------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> contact@try.com</p>
+                    <p> <i class="fa-solid fa-square-phone"></i> 9865432387</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100066490956210"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://x.com/pc1637152?t=WpoasbKCSVKgGk8IF8lMyA&s=08"><i
+                                class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/piyushchouhan666/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/piyush-chouhan-5b1627247"><i class="fa-brands fa-linkedin"></i></a>
+
+                    </div>
+                    <a href="Piyush_chouhan_Resume_28-08-2023-00-53-28.pdf" download class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright 0 piyush. made with <i class="fa-solid fa-heart"></i> by easy tutorials </p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+<script>
+    var sidemanu = document.getElementById("sidemanu");
+
+    function openmanu(){
+        sidemanu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemanu.style.right = "-200px";
+    }
+
+</script>
+
+
+    <script src="https://kit.fontawesome.com/c2fbcc3967.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
